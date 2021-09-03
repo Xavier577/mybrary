@@ -1,14 +1,11 @@
 {
-  "name": "youtube-clone",
+  "name": "mybrary",
   "version": "1.0.0",
   "description": "",
   "main": "server.ts",
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "node ./build/server.js",
     "postinstall": "tsc",
-    "watch-node": "nodemon dist/index.js",
-    "watch-ts": "tsc -w",
-    "deploy": "git add . && git commit -m Heroku && git push heroku master",
     "dev": "nodemon --exec ts-node ./src/server.ts",
     "test": "jest"
   },

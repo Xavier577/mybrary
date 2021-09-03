@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 8080;
 const DB_URL = process.env.DATABASE_URL as string;
 
 app.set("view engine", "ejs");
-app.set("views", path.resolve(__dirname, "views"));
+app.set("views", path.resolve(path.join(__dirname), "../", "public", "views"));
 app.set("layout", "layouts/layout");
 app.use(expressLayouts);
 app.use(express.static(path.resolve("../", "public")));

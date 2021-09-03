@@ -1,3 +1,9 @@
+# node_modules
 node_modules
+# rest client extension
 rest.http
+# .env
 .env
+# build files
+./dist
+./build
