@@ -5,5 +5,5 @@ rest.http
 # .env
 .env
 # build files
-./dist
-./build
+dist
+build

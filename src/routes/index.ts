@@ -1,10 +1,9 @@
 import express from "express";
-import path from "path";
 
-const router = express.Router();
+const indexRouter = express.Router();
 
-router.get("/", (req, res) => {
+indexRouter.get("/", (_req, res) => {
   res.render("index");
 });
 
-export default router;
+export default indexRouter;
